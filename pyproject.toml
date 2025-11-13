@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+version = "2025.11.13.dev1"
+name = "RubyVerse"
+description = "A completely moddable game engine written in python using Pygame (Community Edition)"
+
+authors = [
+    { name="RavinVT", email="ravinvtuber@gmail.com" }
+]
+readme = { file="README.md", content-type="text/markdown" }
+
+[project.license]
+file = "LICENSE"
+
+requires-python = ">= 3.11"
+dependencies = [
+    "pygame-ce",
+    "ujson",
+    "py-ubjson",
+    "numpy"
+]
+
+keywords = [
+    "game-project",
+    "readytouse",
+    "ready-to-use",
+    "gameapi",
+    "moddingapi",
+    "rubyverse"
+]
+
+classifiers = [
+    "Development Status :: 3 - Beta",
+    "Intended Audience :: Developers, Modders, Game Developers",
+    "Topic :: Game Development :: Modding Tools",
+
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: +3.11"
+]
+
+[project.urls]
+Documentation = "https://github.com/RavinVT/RubyVerse"
+Repository = "https://github.com/RavinVT/RubyVerse.git"
+Issues = "https://github.com/RavinVT/RubyVerse/issues"
+
+[project.scripts]
+rubyverse = "rubyverse.scripts:commandline"
+
+[project.gui-scripts]
+rubygui = "rubyverse.scripts:gui"

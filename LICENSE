@@ -1,0 +1,35 @@
+# RubyVerse Custom License
+*Start of Note: This license can be modified at any time by the projects authors if any new updates are made to the license the licenses "version" will be changed to reflect this update*
+
+`License Version` - 0.0.1
+
+### Identifiers
+- "project" - Refers to the RubyVerse project
+- "authors" - Refers to the Creators of the RubyVerse authors
+- "modders" - Refers to the Users that use the project to add their own additions
+- "project source" - Refers to the Source code of RubyVerse
+
+
+### License Introduction
+This license contains the allows and don't allows of what the modders can do with the project. This license does not cover any legal bounds of copyright only what can be done with the project itself, examples include but not limited to, Commercial Use, Non-Commercial Use, Personal Use.
+
+
+### Modders Restrictions
+#### By this license modders are allowed to
+- Use this project for Personal & Non-Commercial purposes
+
+#### By this license modders are not allowed to
+- Republish the project under their own name
+- Change the primary projects license and must refer in their own license(s) that the primary project uses the "RubyVerse Custom License"
+
+#### By this license modders are required to
+- Provide credit to the authors of the RubyVerse package is included in their project, this does not extend to using the PyPi (PIP) installed package only if your including the project source.
+
+
+
+### Modders Commercial Use
+Modders are not allowed to use RubyVerse for commerical use unless the projects authors provide the permission to do so, to obtain permission you can contact the authors under the emails provided in the `pyproject.toml`.
+
+
+### Disclaimer
+RubyVerse is provided "as-is" without any warranty, the projects authors are not responsible for any damages or issues arising from use or modification.
