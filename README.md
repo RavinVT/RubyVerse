@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="background.webp" alt="Cozy background" width="100%">
+  <img src="background.png" alt="Cozy background" width="100%">
 </p>
 
 # RubyVerse
